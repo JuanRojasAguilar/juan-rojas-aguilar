@@ -1,15 +1,15 @@
 @import "main.css";
 
 .card-section {
-  margin: 5vh 20vw;
+  text-align: -webkit-center;
   height: 90vh;
   overflow-y: auto;
 }
 .card {
   margin-top: 20px;
   padding: 15px;
-  height: max-content;
-  max-width: 50vw;
+  max-height: 30vh;
+  max-width: 48vw;
   border: 2px dotted black;
   border-radius: 12px;
 }
@@ -19,4 +19,7 @@
 }
 .card-text {
   font-size: 1.6rem;
+}
+.back-button {
+  margin: 8px 0 0 8px;
 }

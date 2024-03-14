@@ -1,18 +1,19 @@
 @import "main.css";
 
-.panel-box {
-  margin: auto 5vw;
-  display: inline-flex;
-  align-self: center;
-  gap: auto;
+.panel-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
 }
 .panel {
   display: inline-block;
-  max-width: 20vw;
+  max-width: 300px;
   vertical-align: top;
-  height: max-content;
-  padding: 8px;
   font-size: 1.8rem;
+  padding: 8px;
+}
+.panel-two, .panel-three {
+  margin-top: 20px;
 }
 .profile-photo {
   width: 250px;

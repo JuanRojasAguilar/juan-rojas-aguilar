@@ -14,7 +14,6 @@ body {
     box-sizing: border-box;
     background-color: var(--background-color);
 }
-
 .button {
   height: 28px;
   border-radius: 8px;
