@@ -1,5 +1,4 @@
 :root {
-    --title-color: #E9EDC9;
     --background-color: #E9EDC9;
 }
 
@@ -21,6 +20,7 @@ body {
     vertical-align: top;
     height: max-content;
     padding: 8px;
+    font-size: 1.8rem;
 }
 .profile-photo {
     width: 250px;
@@ -28,9 +28,7 @@ body {
     margin: 20px auto;
     aspect-ratio: 1;
     border-radius: 50%;
-}
-.profile-info {
-    font-size: 2rem;
+    border: 2px solid black;
 }
 .tel {
     text-decoration: none;
@@ -52,5 +50,24 @@ body {
 .social-media a {
     font-size: 1.6rem;
     display: contents;
+    color: black;
+}
+.title {
+    margin-top: 0px;
+    font-size: 2.8rem;
+}
+.secondary-title {
+    margin: 0px auto;
+    font-size: 2.4rem;
+}
+.studies-list {
+    padding-left: 20px;
+}
+.button {
+    height: 28px;
+    border-radius: 8px;
+}
+.button a {
+    text-decoration: none;
     color: black;
 }
