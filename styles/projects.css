@@ -1,0 +1,22 @@
+@import "main.css";
+
+.card-section {
+  margin: 5vh 20vw;
+  height: 90vh;
+  overflow-y: auto;
+}
+.card {
+  margin-top: 20px;
+  padding: 15px;
+  height: max-content;
+  max-width: 50vw;
+  border: 2px dotted black;
+  border-radius: 12px;
+}
+.card-title {
+  margin-top: 0;
+  font-size: 2rem;
+}
+.card-text {
+  font-size: 1.6rem;
+}

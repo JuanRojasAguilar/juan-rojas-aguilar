@@ -1,0 +1,58 @@
+@import "main.css";
+
+.panel-box {
+  margin: auto 5vw;
+  display: inline-flex;
+  align-self: center;
+  gap: auto;
+}
+.panel {
+  display: inline-block;
+  max-width: 20vw;
+  vertical-align: top;
+  height: max-content;
+  padding: 8px;
+  font-size: 1.8rem;
+}
+.profile-photo {
+  width: 250px;
+  display: block;
+  margin: 20px auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.tel {
+  text-decoration: none;
+  color: black;
+}
+.social-media {
+  padding: 0;
+}
+.linkedin,
+.instagram {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.social-media img {
+  width: 30px;
+  margin: 0 8px 0 4px;
+}
+.social-media a {
+  font-size: 1.6rem;
+  display: contents;
+  color: black;
+}
+.title {
+  margin-top: 0px;
+  font-size: 2.8rem;
+}
+.secondary-title {
+  margin: 0px auto;
+  font-size: 2.4rem;
+}
+.studies-list {
+  padding-left: 20px;
+}

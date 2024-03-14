@@ -1,9 +1,9 @@
 :root {
-    --background-color: #E9EDC9;
+    --background-color: #FEFAE0;
 }
 
 * {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 html {
     font-size: 62.5%;
@@ -14,60 +14,17 @@ body {
     box-sizing: border-box;
     background-color: var(--background-color);
 }
-.panel {
-    display: inline-block;
-    width: 30vw;
-    vertical-align: top;
-    height: max-content;
-    padding: 8px;
-    font-size: 1.8rem;
-}
-.profile-photo {
-    width: 250px;
-    display: block;
-    margin: 20px auto;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    border: 2px solid black;
-}
-.tel {
-    text-decoration: none;
-    color: black;
-}
-.social-media {
-    padding: 0;
-}
-.linkedin, .instagram {
-    padding: 0;
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-.social-media img {
-    width: 30px;
-    margin: 0 8px 0 4px;
-}
-.social-media a {
-    font-size: 1.6rem;
-    display: contents;
-    color: black;
-}
-.title {
-    margin-top: 0px;
-    font-size: 2.8rem;
-}
-.secondary-title {
-    margin: 0px auto;
-    font-size: 2.4rem;
-}
-.studies-list {
-    padding-left: 20px;
-}
+
 .button {
-    height: 28px;
-    border-radius: 8px;
+  height: 28px;
+  border-radius: 8px;
+  transition: .2s ease-in-out;
 }
 .button a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
+}
+.button:hover {
+    scale: 1.1;
+    background-color: #9dad66;
 }
