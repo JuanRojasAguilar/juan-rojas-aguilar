@@ -1,5 +1,17 @@
 @import "main.css";
 
+.names {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.profile-name,
+.profile-lastname {
+  margin: 5px;
+}
 .panel-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -7,12 +19,16 @@
 }
 .panel {
   display: inline-block;
-  max-width: 300px;
+  max-width: 100%;
   vertical-align: top;
   font-size: 1.8rem;
-  padding: 8px;
+  padding: 12px;
 }
-.panel-two, .panel-three {
+.panel-one {
+  padding-left: 16px;
+}
+.panel-two,
+.panel-three {
   margin-top: 20px;
 }
 .profile-photo {
@@ -23,6 +39,13 @@
   border-radius: 50%;
   border: 2px solid black;
 }
+.profile-tel {
+  border-radius: 12px;
+  padding-top: 8px;
+  padding-left: 8px;
+  height: 28px;
+  background-color: var(--light-background);
+}
 .tel {
   text-decoration: none;
   color: black;
@@ -31,11 +54,25 @@
   padding: 0;
 }
 .linkedin,
-.instagram {
+.instagram,
+.github {
   padding: 0;
   list-style: none;
   display: flex;
   align-items: center;
+  transition: .3s ease-in-out;
+  user-select: none;
+}
+
+.github:hover,
+.instagram:hover,
+.linkedin:hover {
+  margin-left: 12px;
+}
+.github:hover a,
+.instagram:hover a,
+.linkedin:hover a {
+  color: var(--main-color);
 }
 .social-media img {
   width: 30px;
@@ -56,4 +93,7 @@
 }
 .studies-list {
   padding-left: 20px;
+}
+h2, h3 {
+  color: var(--main-color);
 }
